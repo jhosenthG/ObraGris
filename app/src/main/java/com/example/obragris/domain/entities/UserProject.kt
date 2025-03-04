@@ -6,15 +6,15 @@ data class UserProject(
     val userPhone: Int,
     val userMail: String,
 ) {
-    fun userCreate() {
+    fun createUser() {
 
     }
 
-    fun userUpdate() {
+    fun updateUser() {
 
     }
 
-    fun userDelete() {
+    fun deleteUser() {
 
     }
 }
