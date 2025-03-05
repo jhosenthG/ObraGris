@@ -6,14 +6,4 @@ data class InformationReport(
     val userName: UserProject,
     val reportDate: String,
     val locationProject: InformationProject
-) {
-    fun createReport() {
-
-    }
-    fun updateReport() {
-
-    }
-    fun deleteReport() {
-
-    }
-}
+)

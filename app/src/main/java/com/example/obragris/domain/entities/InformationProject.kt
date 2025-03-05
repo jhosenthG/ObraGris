@@ -7,14 +7,4 @@ data class InformationProject(
     val startDateProject: String,
     val endDateProject: String,
     val locationProject: String
-) {
-    fun createInformationProject() {
-
-    }
-    fun updateInformationProject() {
-
-    }
-    fun deleteInformationProject() {
-
-    }
-}
+)

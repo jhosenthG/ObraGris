@@ -5,16 +5,4 @@ data class UserProject(
     val userPosition: String,
     val userPhone: Int,
     val userMail: String,
-) {
-    fun createUser() {
-
-    }
-
-    fun updateUser() {
-
-    }
-
-    fun deleteUser() {
-
-    }
-}
+)

@@ -6,10 +6,4 @@ class TaskReport(
     val taskContractor: String,
     val taskDate: String,
     val taskObservation: String
-) {
-    fun createTaskReport()  {
-}
-    fun deleteTaskReport()  {
-
-    }
-}
+)
