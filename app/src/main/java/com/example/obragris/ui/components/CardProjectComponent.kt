@@ -12,7 +12,6 @@ import androidx.compose.ui.tooling.preview.Preview
 @Composable
 fun cardProjectComponent() {
     Card(modifier = Modifier) {
-
         Column(modifier = Modifier) {
             Row(modifier = Modifier) {
                 Column(modifier = Modifier) {
@@ -34,5 +33,5 @@ fun cardProjectComponent() {
 @Preview
 @Composable
 fun cardProjectComponentPreview() {
-    cardProjectComponent()
+
 }
