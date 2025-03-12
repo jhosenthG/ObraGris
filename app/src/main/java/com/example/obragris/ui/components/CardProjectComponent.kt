@@ -25,13 +25,13 @@ import com.example.obragris.R
 
 @Composable
 fun cardProjectComponent(modifier: Modifier = Modifier) {
-    var cardProject = painterResource(R.drawable.icon_default_project)
+    var ImageCardProject = painterResource(R.drawable.icon_default_project)
     Card(modifier = Modifier) {
 
         Column(modifier = Modifier.padding(10.dp)) {
             Row(modifier = Modifier) {
                 Image(modifier = Modifier.clip(RoundedCornerShape(10.dp)).size(100.dp),contentScale = ContentScale.Crop,
-                    painter = painterResource(R.drawable.icon_default_project),
+                    painter = ImageCardProject,
                     contentDescription = "Project Image"
                 )
                 Column(modifier = Modifier. padding(start = 10.dp)) {
