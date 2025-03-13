@@ -11,7 +11,7 @@ import com.example.obragris.ui.components.CardProjectComponent
 
 @Composable
 fun homeScreen() {
-    LazyColumn() {
+    LazyColumn {
         items(50) {
             Spacer(modifier = Modifier.height(10.dp))
             CardProjectComponent()
