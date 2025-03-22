@@ -4,10 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.Image
-import androidx.compose.foundation.layout.Column
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.res.painterResource
+import com.example.obragris.ui.navigation.NavigationWrapper
 import com.example.obragris.ui.theme.ObraGrisTheme
 
 class MainActivity : ComponentActivity() {
@@ -16,7 +13,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             ObraGrisTheme {
-
+                NavigationWrapper()
                 }
             }
         }
