@@ -25,17 +25,17 @@ data class NavigationBottomBar (
 
 val ListBottomBarItems = listOf<NavigationBottomBar>(
     NavigationBottomBar(
-        title = "Home",
+        title = "Menu",
         icon = Icons.Default.Home,
         route = Router.HomeScreen
     ),
     NavigationBottomBar(
-        title = "New Report",
+        title = "Nuevo",
         icon = Icons.Default.Add,
         route = Router.NewReportScreen
     ),
     NavigationBottomBar(
-        title = "User Profile",
+        title = "Perfil",
         icon = Icons.Default.Person,
         route = Router.UserProfileScreen
     )

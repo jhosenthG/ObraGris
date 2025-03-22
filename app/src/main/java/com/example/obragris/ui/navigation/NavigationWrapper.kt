@@ -17,7 +17,7 @@ fun NavigationWrapper() {
 
     NavHost(navController = navController, startDestination = HomeScreen ) {
         composable<HomeScreen>{
-            homeScreen()
+            homeScreen(navController)
         }
         composable<NewReportScreen>{
             newReportScreen()
