@@ -1,4 +1,4 @@
-package com.example.obragris.ui.screens.HomeScreen
+package com.example.obragris.ui.screens.homeScreen
 
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height

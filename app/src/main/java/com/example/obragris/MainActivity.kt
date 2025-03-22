@@ -16,13 +16,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             ObraGrisTheme {
-                
+
                 }
             }
         }
     }
-
-@Composable
-fun PruebaImagen() {
-
-}
